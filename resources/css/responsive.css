@@ -1,0 +1,546 @@
+/*header css*/
+@media only screen and (max-width: 480px) {
+    /*moble-menu css*/
+    /*css for responsive*/
+
+
+
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+
+        .overlay .closebtn {
+            font-size: 30px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+
+
+
+    /*header css*/
+    @media only screen and (max-width: 480px) {
+        .main-nav {
+            display: none;
+        }
+
+        header span {
+            display: block;
+            margin: 20px 8px;
+            float: right;
+            font-size: 50px;
+            border: 1px solid #000;
+            padding: 2px 5px;
+            color: #000;
+        }
+
+        nav img {
+            font-size: 30px;
+            margin: 30px 0px 25px -150px;
+            display: inline-block;
+        }
+
+
+
+
+        /*moble-menu css end*/
+
+
+
+
+
+
+
+        .top span {
+            margin-top: 230px;
+            display: inline-block;
+            font-size: 400%;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .top p {
+            font-size: 160%;
+            margin-top: 60px;
+            color: #fff;
+        }
+
+        .top button {
+            font-size: 260%;
+            margin-top: 45px;
+            color: #fff;
+            background: #699b8f;
+            padding: 10px 15px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+
+        }
+
+        .grid-col-4 {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 50px 0px;
+            padding: 20px;
+        }
+
+        .grid-col-4 img {
+            margin-top: 30px;
+
+
+        }
+
+
+        .grid-col-4-item h3 {
+
+            font-size: 220%;
+            font-family: Open Sans;
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+
+        }
+
+        .grid-col-4-item p {
+            font-size: 140%;
+            font-family: Open Sans;
+            line-height: 2;
+
+
+        }
+
+        .grid-col-4-item button {
+            background-color: #49cbcd;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 110%;
+            margin-top: 30px;
+        }
+
+        .grid-col-4-item:nth-child(1) {}
+
+        .grid-col-4-item:nth-child(2) {
+            margin-top: 4px;
+        }
+
+        .grid-col-4-item:nth-child(3) {
+            margin-top: -5px;
+        }
+
+        .grid-col-4-item:nth-child(4) {}
+
+        /*portfolio css*/
+
+        .portfolio {
+            background: #f1f1f1;
+        }
+
+        .portfolio img {
+            width: 100%;
+
+        }
+
+        .portfolio h2 {
+            text-align: center;
+            font-size: 420%;
+            font-family: Open Sans;
+            margin-top: 55px;
+            margin-bottom: 55px;
+            display: inline-block;
+
+        }
+
+        .grid-col-3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+
+        .portfolio button {
+            width: 180px;
+            height: 35px;
+            background-color: #49cbcd;
+            font-size: 150%;
+            color: #fff;
+            margin-top: 30px;
+            margin-bottom: 50px;
+
+
+
+        }
+
+        /*team css*/
+        .team {}
+
+        .team h2 {
+            margin-top: 50px;
+            font-size: 320%;
+
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 20px;
+        }
+
+        .grid-4-item {
+            margin-top: 50px;
+        }
+
+        .grid-4-item img {
+            border-radius: 50%;
+            margin-top: -50px;
+
+        }
+
+        .grid-4-item img:nth-child(2) {
+            margin-top: 130px;
+        }
+
+        .grid-4-item h3 {
+            font-size: 220%;
+            margin-top: 20px;
+        }
+
+        .grid-4-item span {
+            font-size: 150%;
+        }
+
+
+
+        .grid-4 p {
+
+            margin-bottom: 50px;
+            font-size: 140%;
+            margin-top: 20px;
+        }
+
+        /*price section css*/
+
+        .price {
+            background-color: #f1f1f1;
+
+
+
+
+        }
+
+        .grid-3-price {
+
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+
+
+
+
+
+
+        }
+
+        .price .item-1 span {
+            padding: 0 80px;
+            font-size: 260%;
+            background: #485460;
+            color: #fff;
+            border: 1px solid;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            text-align: center;
+
+
+        }
+
+        .price .item-1 h2 {
+
+            background: #f8f9fb;
+            padding: 20px;
+            margin-top: -10px;
+            border: 1px solid #f8f9fb;
+            border-left: -10px;
+            font-size: 200%;
+
+        }
+
+        .price .item-1 p {
+            background: #ffffff;
+            font-size: 140%;
+            color: #8c9299;
+        }
+
+        .price .item-1 button {
+            background: #485460;
+            ;
+            color: #f0f1f2;
+            font-size: 140%;
+            border: 1px solid #485460;
+            padding: 5px 25px;
+            margin-bottom: 20px;
+        }
+
+        /*second price-box*/
+
+        .price .item-2 span {
+            padding: 0 80px;
+            font-size: 260%;
+            background: #49cbcd;
+            color: #fff;
+            border: 1px solid;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+        }
+
+        .price .item-2 h2 {
+
+            background: #f8f9fb;
+            padding: 20px;
+            margin-top: -10px;
+            border: 1px solid #f8f9fb;
+            border-left: -10px;
+            font-size: 200%;
+
+        }
+
+        .price .item-2 p {
+            background: #ffffff;
+            font-size: 140%;
+            color: #8c9299;
+        }
+
+        .price .item-2 button {
+            background: #49cbcd;
+            color: #f0f1f2;
+            font-size: 140%;
+            border: 1px solid #49cbcd;
+            padding: 5px 25px;
+            margin-bottom: 20px;
+        }
+
+        /*price-3-box css*/
+        .price .item-3 span {
+            padding: 0 80px;
+            font-size: 260%;
+            background: #485460;
+            color: #fff;
+            border: 1px solid;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+        }
+
+        .price .item-3 h2 {
+
+            background: #f8f9fb;
+            padding: 20px;
+            margin-top: -10px;
+            border: 1px solid #f8f9fb;
+            border-left: -10px;
+            font-size: 200%;
+
+        }
+
+        .price .item-3 p {
+            background: #ffffff;
+            font-size: 140%;
+            color: #8c9299;
+        }
+
+        .price .item-3 button {
+            background: #485460;
+            color: #f0f1f2;
+            font-size: 140%;
+            border: 1px solid #49cbcd;
+            padding: 5px 25px;
+            margin-bottom: 20px;
+        }
+
+
+
+        /*clients section css*/
+        .clients {
+            background: #fff;
+            color: #4e525d;
+            margin-bottom: 100px;
+        }
+
+        .clients h2 {
+            margin-top: 100px;
+            font-size: 210%;
+
+        }
+
+        .clients p {
+            margin-top: 15px;
+            margin-bottom: 40px;
+            font-size: 140%;
+            text-align: center;
+        }
+
+        .clients span {
+            margin-top: 40px;
+            font-size: 180%;
+        }
+
+        /*contact css*/
+
+
+        .contact h2 {
+            color: #fff;
+            font-size: 210%;
+            margin-top: 50px;
+            display: inline-block;
+        }
+
+        .grid-contact-2 h4 {
+            color: #fff;
+            margin-top: 50px;
+            font-size: 150%;
+
+
+        }
+
+        .grid-contact-2 p {
+            color: #fff;
+            font-size: 120%;
+            margin-top: 20px;
+
+
+
+        }
+
+        .grid-contact-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .contact-item i {
+            padding: 14px;
+            margin: 10px;
+            margin-top: 25px;
+            display: inline-block;
+
+
+
+        }
+
+        .fa-facebook-f {
+            width: 50px;
+            height: 50px;
+            background: #3b5997;
+            padding-top: 20px;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 200%;
+            text-align: center;
+
+
+        }
+
+        .fa-twitter {
+            width: 50px;
+            height: 50px;
+            background: #3ec2f3;
+            padding-top: 20px;
+            color: #fff;
+
+            margin-top: 15px;
+            border-radius: 50%;
+            font-size: 200%;
+
+
+        }
+
+        .fa-google-plus-g {
+            width: 50px;
+            height: 50px;
+            background: #e44c41;
+            padding-top: 20px;
+            color: #fff;
+            position: 50px 50px;
+            margin-top: 15px;
+            border-radius: 50%;
+            font-size: 200%;
+
+
+
+
+        }
+
+        .contact span {
+            font-size: 140%;
+            color: #fff;
+            margin-top: 10px;
+            padding: 10px;
+
+        }
+
+        .contact .color {
+            color: #49cbcd;
+        }
+
+        /*form css*/
+        .contact-item form {
+
+            margin-top: 10px;
+
+
+            font-size: 140%;
+            ;
+
+
+        }
+
+        input[type='text'] {
+            width: 130px;
+            height: 25px;
+            margin-top: 20px;
+
+
+
+
+        }
+
+        input[type='email'] {
+            width: 130px;
+            height: 25px;
+
+
+
+        }
+
+
+        .contact-item textarea {
+            width: 300px;
+            height: 70px;
+            margin-top: 20px;
+            border-radius: 5px solid #fff;
+            font-size: 140%;
+        }
+
+
+
+        .contact-item button {
+            margin-top: 25px;
+            float: right;
+            margin-right: 145px;
+            margin-bottom: 20px;
+            padding: 10px 40px;
+            background-color:
+                #49cbcd;
+            border: #49cbcd;
+
+        }
+
+
+
+
+
+
+
+    }
